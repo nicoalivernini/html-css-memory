@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: rgb(181, 215, 228);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+[class^="col-"] {
+  float: left;
+}
+
+.row {
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-100 > h1 {
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-family: 'Delius Unicase', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
