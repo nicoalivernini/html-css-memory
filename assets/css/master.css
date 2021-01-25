@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(181, 215, 228);
   font-family: 'Nerko One', sans-serif;
 }
@@ -44,6 +44,7 @@ body{
   font-weight: 700;
   font-size: 65px;
   color: white;
+  text-shadow: 1px 1px 1px grey;
 }
 
 .card {
@@ -51,6 +52,7 @@ body{
   background-image: url('../img/pattern.png');
   background-size: contain;
   border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
 }
 
 /* .card:hover {
@@ -64,23 +66,31 @@ body{
 
 .special-card {
   height: 160px;
-  background-image: url('../img/noun_air_balloon_3134741.png');
-  background-size: contain;
   border-radius: 10px;
   position: relative;
   background-color: #fff;
-  background-repeat: no-repeat;
+  z-index: 0;
 }
 
 .special-card > h2 {
   position: absolute;
   bottom: 10px;
-  left: 20%;
+  left: 16%;
   font-size: 20px;
   color: rgb(211, 55, 132);
+  z-index: 1;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.baloon {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
 }
 
 .col-100 > h3 {
-  font-size: 11px;
-  margin: 10px 10px;
+  font-size: 10px;
+  margin: 15px 10px;
 }
