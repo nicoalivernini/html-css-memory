@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
 }
@@ -31,6 +31,10 @@ body{
   width: 100%;
 }
 
+.col-20 {
+  width: 20%;
+}
+
 .col-100 > h1 {
   margin: 20px 0;
   text-transform: uppercase;
@@ -38,4 +42,32 @@ body{
   font-weight: 700;
   font-size: 40px;
   color: white;
+}
+
+.card {
+  height: 140px;
+  background-image: url('../img/pattern.png');
+  background-size: contain;
+  border-radius: 10px;
+  margin: 10px 7px;
+
+}
+
+.special-card {
+  height: 140px;
+  background-image: url('../img/noun_air_balloon_3134741.png');
+  background-size: contain;
+  border-radius: 10px;
+  margin: 10px 7px;
+  position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+.special-card > h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  font-size: 15px;
+  color: rgb(211, 55, 132);
 }
